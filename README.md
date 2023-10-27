@@ -19,3 +19,11 @@ example should handle gracefully.
 
 Thank you for your effort on this assignment and interest in Vail Systems! Please return this assignment
 within 2-3 business days.
+
+Candidate input:
+
+You can find two separate files with different approaches for solvinf this problem. I intentionally added both solutions.
+In my opinion version which includes 'while' loop is more efficient and readable for next reasons:
+* Operations '.pop' and '.append' both have O(1) complexity
+* Worst case scenario for 'while' loop will give O(n-1)
+* In matter of readability, using 'while' loop is more generic, launguage agnostic approach.
